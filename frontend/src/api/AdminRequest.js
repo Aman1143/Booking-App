@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API=axios.create({baseURL:'https://booking-app-nine-blue.vercel.app/api/admin'});
+const API=axios.create({baseURL:'https://booking-app-mu-steel.vercel.app/api/admin'});
 
 export const addSportCenter=(formData)=>API.post('/addSportCenter',formData,{
 	headers: {

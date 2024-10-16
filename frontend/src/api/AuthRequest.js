@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API=axios.create({baseURL:'http://localhost:8000/api/auth'});
+const API=axios.create({baseURL:'https://booking-app-nine-blue.vercel.app/api/auth'});
 
 
 export const signUp=(formData)=>API.post('/register',formData,{

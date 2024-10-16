@@ -12,12 +12,12 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={token ? <Home /> : <Auth />} />
-        <Route path="/sportCenter/:center_id" element={token ? <SportCenter /> : <Auth />} />
-        <Route path="/sport/:sport_id" element={token ? <Sport /> : <Auth />} />
-        <Route path="/authentication" element={<Auth />} />
-        <Route path="/addCenter" element={token ? <AddCenter /> : <Auth />} />
-        <Route path="/adminCenters" element={token ? <AdminCenter /> : <Auth />} />
+        <Route path="https://booking-app-nine-blue.vercel.app/" element={token ? <Home /> : <Auth />} />
+        <Route path="https://booking-app-nine-blue.vercel.app/sportCenter/:center_id" element={token ? <SportCenter /> : <Auth />} />
+        <Route path="https://booking-app-nine-blue.vercel.app/sport/:sport_id" element={token ? <Sport /> : <Auth />} />
+        <Route path="https://booking-app-nine-blue.vercel.app/authentication" element={<Auth />} />
+        <Route path="https://booking-app-nine-blue.vercel.app/addCenter" element={token ? <AddCenter /> : <Auth />} />
+        <Route path="https://booking-app-nine-blue.vercel.app/adminCenters" element={token ? <AdminCenter /> : <Auth />} />
       </Routes>
     </>
   );

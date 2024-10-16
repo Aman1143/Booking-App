@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:8000/api/user' });
+const API = axios.create({ baseURL: 'https://booking-app-nine-blue.vercel.app/api/user' });
 
 export const getAllSportCenteruser = () => API.get('/getAllSportCenterUser', {
 	headers: {

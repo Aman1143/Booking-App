@@ -12,12 +12,12 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="https://booking-app-mu-steel.vercel.app/" element={token ? <Home /> : <Auth />} />
-        <Route path="https://booking-app-mu-steel.vercel.app/sportCenter/:center_id" element={token ? <SportCenter /> : <Auth />} />
-        <Route path="https://booking-app-mu-steel.vercel.app/:sport_id" element={token ? <Sport /> : <Auth />} />
-        <Route path="https://booking-app-mu-steel.vercel.app/authentication" element={<Auth />} />
-        <Route path="https://booking-app-mu-steel.vercel.app/addCenter" element={token ? <AddCenter /> : <Auth />} />
-        <Route path="https://booking-app-mu-steel.vercel.app/adminCenters" element={token ? <AdminCenter /> : <Auth />} />
+        <Route path="https://booking-app-nine-blue.vercel.app/" element={token ? <Home /> : <Auth />} />
+        <Route path="https://booking-app-nine-blue.vercel.app/sportCenter/:center_id" element={token ? <SportCenter /> : <Auth />} />
+        <Route path="https://booking-app-nine-blue.vercel.app/sport/:sport_id" element={token ? <Sport /> : <Auth />} />
+        <Route path="https://booking-app-nine-blue.vercel.app/authentication" element={<Auth />} />
+        <Route path="https://booking-app-nine-blue.vercel.app/addCenter" element={token ? <AddCenter /> : <Auth />} />
+        <Route path="https://booking-app-nine-blue.vercel.app/adminCenters" element={token ? <AdminCenter /> : <Auth />} />
       </Routes>
     </>
   );

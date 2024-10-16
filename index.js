@@ -48,7 +48,7 @@ connect();
 
 
 app.use(express.static(path.resolve(path.resolve(), 'frontend', 'build')));
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
 	res.sendFile(path.resolve(path.resolve() + '/frontend/build/index.html'))
 })
 

@@ -24,17 +24,19 @@ This project is a slot booking application where users can select sports centers
      - Select a facility (center) and sport.
      - View bookings for a specific day and sport.
      - Create new bookings by selecting a time slot and court.
-2. **Core Features**:
+2. **Global statemanegement**
+     - use react-redux and toolkit to manage the global state.
+3. **Core Features**:
    - **View Bookings**: Displays bookings for all courts of the selected sport and date.
    - **Create Bookings**: Users can create bookings by selecting a time slot and court.
 3. **Usability**:
    - User-friendly interface.
    - Feedback for successful operations and error messages.
-4. **Assumptions**:
+5. **Assumptions**:
      -Time Slots: Each booking slot is one hour long.
      -Limited Courts: Since the number of courts is relatively low, no pagination or infinite scrolling is required.
      -Static Images: For the sake of simplicity and faster loading times, hardcoded images are used throughout the app.
-5. **Future Improvement**:
+6. **Future Improvement**:
      - **Pagination**: Implement pagination or infinite scrolling if the number of courts increases.
      - **Dynamic Images**: Add support for dynamic images in the future for a more flexible UI.
 ## **Setup Instructions**
